@@ -1,0 +1,20 @@
+.card{
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px black;
+}
+
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.cardContent > p{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

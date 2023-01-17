@@ -1,0 +1,90 @@
+.loginContainer{
+  width: 30%;
+  min-width: 350px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color-scheme: light;
+  margin: auto auto;
+}
+
+.loginSection{
+  padding-bottom: 20px;
+  border: 1px solid white;
+  color: white;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 5px 5px  #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.logoLogin{
+  border-radius: 50%;
+  height: 70px;
+  overflow: hidden;
+  width: fit-content;
+  translate: 0 -35px;
+}
+
+.loginSection form{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.loginSection span{
+  font-size: 1.2rem;
+  padding: 3px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.inputLogin{
+  flex: 1;
+}
+
+.inputLogin input{
+  color: #fff;
+  padding-left: 5px;
+}
+
+.loginSection input::placeholder{
+    color: #999;
+}
+
+.rememberMe{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  padding-right: 5px;
+}
+
+.rememberMeAndButton{
+  display: flex !important;
+  flex-direction: column;
+  align-items: normal !important;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.rememberMeAndButton input{
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+}
+
+.rememberMeAndButton a{
+  color: #fff;
+  align-self: flex-end;
+}

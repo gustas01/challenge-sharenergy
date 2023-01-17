@@ -1,0 +1,16 @@
+.randomDogsContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.randomDogsContainer > button{
+  width: 10%;
+  height: 50px;
+  font-size: 2rem;
+  border: 1px solid #fff;
+  align-self: center;
+  margin: 0 0 16px ;
+  padding: 0.6rem;
+}

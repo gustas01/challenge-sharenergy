@@ -1,0 +1,52 @@
+.userMenuButton{
+  color: white !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  background-color: #373737 !important;
+}
+
+.userMenuButton:hover{
+  background-color: red;
+}
+
+.userMenu > li:hover{
+  background-color: #373737;
+  border-radius: 5px;
+}
+
+.userMenu{
+  background-color: #454545;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.userMenu > li > a{
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 4px 6px;
+}
+
+.iconMenu{
+  display: flex;
+  align-items: center;
+}
+
+.iconMenuResponsive{
+  display: none;
+}
+
+@media (max-width: 560px){
+  .iconMenu{
+    display: none;
+  }
+
+  .iconMenuResponsive{
+    display: block;
+  }
+
+  .userMenuButton{
+    background-color: transparent !important;
+  }
+}

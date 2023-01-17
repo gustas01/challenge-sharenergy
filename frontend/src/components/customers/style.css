@@ -1,0 +1,46 @@
+.customerContainer{
+  align-items: center;
+  margin: 16px;
+}
+
+.formAddCustomer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 16px;
+  gap: 5px;
+}
+
+.formAddCustomer input{
+  color: #fff;
+  padding: 5px;
+}
+
+.formAddCustomer > div{
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.customerContainer > table{
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+.customerActions{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+}
+
+.customerActions > svg{
+  cursor: pointer;
+}
+
+td{
+  padding: 5px;
+}
+
+th{
+  padding: 10px;
+}

@@ -1,0 +1,27 @@
+.accordionContent{
+  background-color: #121212;
+  display: flex; 
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+}
+
+.accordionContent input{
+  color: #fff !important;
+  font-size: 1rem;
+  border: none;
+  background-color: #242424;
+  padding: 5px;
+  border-radius: 5px !important;
+  /* width: 50%; */
+}
+
+.customerButtons{
+  display: flex;
+  gap: 10px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled{
+  -webkit-text-fill-color: #ccc !important;
+  background-color: transparent;
+}

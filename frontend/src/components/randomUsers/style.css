@@ -1,0 +1,48 @@
+.randomUsersGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 15px;
+  margin: 16px;
+}
+
+.randomUsersSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.randomUsersSearch > input, .randomUsersSearch > select{
+  font-size: 1rem;
+  padding: 0.313rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination > ul > li > button{
+  color: white;
+}
+
+.pagination > ul > li > div{
+  color: white;
+}
+
+@media (max-width: 470px){
+  .randomUsersSearch{
+    display: grid;
+    grid-template-areas: "select select" "input input";
+  }
+
+  .randomUsersSearch > select{
+    grid-area: select;
+  }
+
+  .randomUsersSearch > input{
+    grid-area: input;
+  }
+
+  .randomUsersSearch > button{
+    grid-area: button;
+  }
+}
